@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QZG96/CmUkSelNowIWk6BXDGSu7pdPiBjHqiWM7J6TaGeiDsxqGkgOjC2aSN2jLhXz9OkJFE0M5m/s1wnFKJGQ==",
+  "success": true,
+  "projectFilePath": "D:\\Invitation_repository\\einvitation\\einvitation.iOS\\einvitation.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
