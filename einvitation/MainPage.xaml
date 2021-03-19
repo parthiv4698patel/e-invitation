@@ -4,28 +4,29 @@
              x:Class="einvitation.MainPage">
 
     <StackLayout>
-
         <Label Text="Enter Your Name"
               FontSize="25"
               TextColor="Black"
                Margin="10,145,0,0"/>
+        
         <Label Text="Name"
               FontSize="15"
               TextColor="Blue"
                Margin="10,20,0,0"/>
+        
         <Entry Placeholder="enter name"
-               Grid.Row="1"
-               Margin="10,0,0,10"/>
-        <Button Text="Submit"
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
-                FontSize="16"
-                TextColor="white"
-                Grid.Row="4"
-                BackgroundColor="Blue"
-                Clicked="ButtonClicked1" />
+                        Grid.Row="1"
+                        Margin="10,0,0,10"/>
 
-       
+        <Button Text="Submit"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="16"
+                    TextColor="white"
+                    Grid.Row="4"
+                    BackgroundColor="Blue"
+                   Clicked="ButtonClicked1" />
+        
     </StackLayout>
 
 </ContentPage>
