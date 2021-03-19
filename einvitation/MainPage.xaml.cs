@@ -14,5 +14,10 @@ namespace einvitation
         {
             InitializeComponent();
         }
+        // Go to dashboard page
+        public async void ButtoenClickd1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new dashboard());
+        }
     }
 }

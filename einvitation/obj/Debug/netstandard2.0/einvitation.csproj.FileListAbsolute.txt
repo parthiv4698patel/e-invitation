@@ -1,0 +1,14 @@
+D:\Invitation_repository\einvitation\einvitation\bin\Debug\netstandard2.0\einvitation.deps.json
+D:\Invitation_repository\einvitation\einvitation\bin\Debug\netstandard2.0\einvitation.dll
+D:\Invitation_repository\einvitation\einvitation\bin\Debug\netstandard2.0\ref\einvitation.dll
+D:\Invitation_repository\einvitation\einvitation\bin\Debug\netstandard2.0\einvitation.pdb
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.csprojAssemblyReference.cache
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.AssemblyInfoInputs.cache
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.AssemblyInfo.cs
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.csproj.CoreCompileInputs.cache
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.dll
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\ref\einvitation.dll
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.pdb
