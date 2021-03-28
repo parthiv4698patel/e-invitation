@@ -4,9 +4,70 @@
              x:Class="einvitation.EventRegistration">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            
+            <Label Text="Event Form"
+              FontSize="30"
+              TextColor="Black"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+            
+            <Label Text="Event title"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+            <Entry Placeholder="ex. Birthday"
+                  Margin="10,0,10,0"/>
+
+            <Label Text="Description"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+            <Entry Placeholder="ex. My brother's birthday"
+                  Margin="10,0,10,0"/>
+
+            <Label Text="Date"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+             <Entry Placeholder="ex. Date"
+                  Margin="10,0,10,0"/>
+
+            <Label Text="Start time"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+            <Entry Placeholder="ex. 6:00 pm"
+                  Margin="10,0,10,0"/>
+
+            <Label Text="End time"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+            <Entry Placeholder="ex. 10:00 pm"
+                  Margin="10,0,10,0"/>
+
+            <Label Text="Event address"
+              FontSize="15"
+              TextColor="Blue"
+               Margin="10,10,10,0"/>
+
+            <Entry Placeholder="ex. Haveli, ahmedabad"
+                  Margin="10,0,10,0"/>
+
+            <Button Text="Submit"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="16"
+                    TextColor="white"
+                    Grid.Row="4"
+                    BackgroundColor="Blue"
+                    />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

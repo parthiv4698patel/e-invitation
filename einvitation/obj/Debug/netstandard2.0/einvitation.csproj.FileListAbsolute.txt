@@ -13,3 +13,4 @@ D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvit
 D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\ref\einvitation.dll
 D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\einvitation.pdb
 D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\dashboard.xaml.g.cs
+D:\Invitation_repository\einvitation\einvitation\obj\Debug\netstandard2.0\EventRegistration.xaml.g.cs

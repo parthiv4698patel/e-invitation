@@ -16,5 +16,10 @@ namespace einvitation
         {
             InitializeComponent();
         }
+        // Go to EventRegistration page
+        public async void ButtonClicked2(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EventRegistration());
+        }
     }
 }
