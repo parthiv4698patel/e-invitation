@@ -9,9 +9,16 @@
               TextColor="Black"
                VerticalOptions="Center"
                     HorizontalOptions="Center"/>
-            <Label Text="This is my dashboard"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            
+            <Button Text="Add Events"
+                   VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    FontSize="10"
+                    TextColor="white"
+                     BackgroundColor="Blue"
+                    />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
