@@ -16,7 +16,7 @@
                     FontSize="10"
                     TextColor="white"
                      BackgroundColor="Blue"
-                    />
+                     Clicked="ButtonClicked2"/>
 
 
         </StackLayout>
