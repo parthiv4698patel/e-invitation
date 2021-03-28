@@ -4,6 +4,11 @@
              x:Class="einvitation.dashboard">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="Future Events"
+              FontSize="30"
+              TextColor="Black"
+               VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
             <Label Text="This is my dashboard"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
