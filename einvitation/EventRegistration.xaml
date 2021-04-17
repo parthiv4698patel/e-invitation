@@ -66,6 +66,7 @@
                     TextColor="white"
                     Grid.Row="4"
                     BackgroundColor="Blue"
+                    Clicked="ButtonClicked3"
                     />
 
         </StackLayout>

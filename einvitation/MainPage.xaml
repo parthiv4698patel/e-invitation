@@ -4,10 +4,13 @@
              x:Class="einvitation.MainPage">
 
     <StackLayout>
+
+        <Image Source="abc.png"  HeightRequest="100" WidthRequest="100" Margin="0,40,0,20"/>
+        
         <Label Text="Enter Your Name"
               FontSize="25"
               TextColor="Black"
-               Margin="10,145,0,0"/>
+               Margin="10,20,0,0"/>
         
         <Label Text="Name"
               FontSize="15"

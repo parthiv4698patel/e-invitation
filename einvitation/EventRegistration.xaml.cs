@@ -17,6 +17,9 @@ namespace einvitation
             InitializeComponent();
         }
 
-       
+        public async void ButtonClicked3(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new dashboard());
+        }
     }
 }

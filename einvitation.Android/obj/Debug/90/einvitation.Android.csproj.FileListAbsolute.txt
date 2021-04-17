@@ -490,3 +490,6 @@ D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\stamp\_Con
 D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\res\drawable\abc.png
+D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\res\drawable\def.jpeg
+D:\Invitation_repository\einvitation\einvitation.Android\obj\Debug\90\res\drawable\ppp.png
