@@ -17,7 +17,8 @@
                Margin="10,10,10,0"/>
 
             <Entry Placeholder="ex. Birthday"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                   x:Name="birthday"/>
 
             <Label Text="Description"
               FontSize="15"
@@ -25,7 +26,8 @@
                Margin="10,10,10,0"/>
 
             <Entry Placeholder="ex. My brother's birthday"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                   x:Name="description"/>
 
             <Label Text="Date"
               FontSize="15"
@@ -33,7 +35,8 @@
                Margin="10,10,10,0"/>
 
              <Entry Placeholder="ex. Date"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                    x:Name="dateday"/>
 
             <Label Text="Start time"
               FontSize="15"
@@ -41,7 +44,8 @@
                Margin="10,10,10,0"/>
 
             <Entry Placeholder="ex. 6:00 pm"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                   x:Name="starttime"/>
 
             <Label Text="End time"
               FontSize="15"
@@ -49,7 +53,8 @@
                Margin="10,10,10,0"/>
 
             <Entry Placeholder="ex. 10:00 pm"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                   x:Name="endtime"/>
 
             <Label Text="Event address"
               FontSize="15"
@@ -57,7 +62,8 @@
                Margin="10,10,10,0"/>
 
             <Entry Placeholder="ex. Haveli, ahmedabad"
-                  Margin="10,0,10,0"/>
+                  Margin="10,0,10,0"
+                   x:Name="eventaddress"/>
 
             <Button Text="Submit"
                     VerticalOptions="Center"
@@ -67,6 +73,7 @@
                     Grid.Row="4"
                     BackgroundColor="Blue"
                     Clicked="ButtonClicked3"
+                    x:Name="registrationsubmit"
                     />
 
         </StackLayout>

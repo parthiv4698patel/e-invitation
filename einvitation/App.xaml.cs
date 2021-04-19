@@ -9,7 +9,7 @@ namespace einvitation
         public App()
         {
             InitializeComponent();
-
+            DependencyService.Get<ISQLite>().GetConnectionWithCreateDatabase();
             MainPage = new NavigationPage(new MainPage());
         }
 

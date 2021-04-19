@@ -8,6 +8,7 @@
         <Image Source="abc.png"  HeightRequest="100" WidthRequest="100" Margin="0,40,0,20"/>
         
         <Label Text="Enter Your Name"
+               
               FontSize="25"
               TextColor="Black"
                Margin="10,20,0,0"/>
@@ -18,6 +19,7 @@
                Margin="10,20,0,0"/>
         
         <Entry Placeholder="enter name"
+               
                         Grid.Row="1"
                         Margin="10,0,0,10"/>
 

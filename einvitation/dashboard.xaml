@@ -17,7 +17,12 @@
              <ImageButton Source="ppp.png" Grid.Column="1" HeightRequest="50" WidthRequest="50" Clicked="ButtonClicked2" HorizontalOptions="End"/>
 
             </Grid>
-    
+
+
+
+
+            
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
