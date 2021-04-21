@@ -11,5 +11,6 @@ namespace einvitation
         bool ButtonClicked3(Event evt);
 
         List<Event> GetEvents();
+         void DeleteEvent(int Id);
     }
 }
