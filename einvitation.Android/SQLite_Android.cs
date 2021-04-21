@@ -49,5 +49,11 @@ namespace einvitation.Droid
             List<Event> events = con.Query<Event>(sql);
             return events;
         }
+
+        public void DeleteEvent(int Id)
+        {
+            string sql = $"DELETE FROM Event WHERE Id={Id}";
+            con.Execute(sql);
+        }
     }
 }

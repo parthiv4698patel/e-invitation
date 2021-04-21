@@ -31,5 +31,17 @@ namespace einvitation
         {
             await Navigation.PushAsync(new EventRegistration(null));
         }
+
+        private async void DeleteEvent(object sender, EventArgs e)
+        {
+            bool res = await DisplayAlert("Message", "Do you want to delete employee?", "Ok", "Cancel");
+            if (res)
+            {
+                var menu = sender as MenuItem;
+                Event details = menu.CommandParameter as Event;
+                DependencyService.Get<ISQLite>().DeleteEvent(details.Id);
+                PopulateEventList();
+            }
+        }
     }
 }
