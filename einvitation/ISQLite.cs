@@ -1,10 +1,15 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace einvitation
 {
-    class ISQLite
+    public interface ISQLite
     {
+        SQLiteConnection GetConnectionWithCreateDatabase();
+        bool ButtonClicked3(Event evt);
+
+        List<Event> GetEvents();
     }
 }

@@ -4,24 +4,29 @@
              x:Class="einvitation.dashboard">
     
     <ContentPage.Content>
-        
-        <StackLayout>
-           <Grid>
-            
-              <Label Text="Future Events"
-              FontSize="25"
-              TextColor="Black"
-              Grid.Column="0"
-              HorizontalOptions="End"/>
-                
-             <ImageButton Source="ppp.png" Grid.Column="1" HeightRequest="50" WidthRequest="50" Clicked="ButtonClicked2" HorizontalOptions="End"/>
+        <StackLayout Padding="5">
+            <Button Text="Add Event" HorizontalOptions="FillAndExpand" 
+                BackgroundColor="Orange" TextColor="Black" Clicked="ButtonClicked2"/>
 
-            </Grid>
+            <ListView x:Name="EventList" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Delete" Clicked="DeleteEvent" IsDestructive="true" CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout Spacing="2">
+                                
+                                <Label Text="{Binding Title,StringFormat='Title:{0:F0}'}" FontSize="Small" FontAttributes="None"/>
+                                <Label Text="{Binding Description,StringFormat='Description :{0:F0}'}" FontSize="Small" FontAttributes="None"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
 
 
-
-            
 
         </StackLayout>
     </ContentPage.Content>

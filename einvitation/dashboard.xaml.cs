@@ -16,10 +16,20 @@ namespace einvitation
         {
             InitializeComponent();
         }
+        protected override void OnAppearing()
+        {
+            PopulateEventList();
+        }
+        public void PopulateEventList()
+        {
+            EventList.ItemsSource = null;
+            EventList.ItemsSource = DependencyService.Get<ISQLite>().GetEvents();
+        }
+
         // Go to EventRegistration page
         public async void ButtonClicked2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new EventRegistration());
+            await Navigation.PushAsync(new EventRegistration(null));
         }
     }
 }

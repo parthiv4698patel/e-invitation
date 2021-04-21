@@ -16,16 +16,16 @@
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-            <Entry Placeholder="ex. Birthday"
+            <Entry Placeholder="Title"
                   Margin="10,0,10,0"
-                   x:Name="birthday"/>
+                   x:Name="title"/>
 
             <Label Text="Description"
               FontSize="15"
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-            <Entry Placeholder="ex. My brother's birthday"
+            <Entry Placeholder="Description"
                   Margin="10,0,10,0"
                    x:Name="description"/>
 
@@ -34,38 +34,38 @@
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-             <Entry Placeholder="ex. Date"
+             <Entry Placeholder="Date"
                   Margin="10,0,10,0"
-                    x:Name="dateday"/>
+                    x:Name="date"/>
 
             <Label Text="Start time"
               FontSize="15"
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-            <Entry Placeholder="ex. 6:00 pm"
+            <Entry Placeholder="Stime"
                   Margin="10,0,10,0"
-                   x:Name="starttime"/>
+                   x:Name="stime"/>
 
             <Label Text="End time"
               FontSize="15"
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-            <Entry Placeholder="ex. 10:00 pm"
+            <Entry Placeholder="Etime"
                   Margin="10,0,10,0"
-                   x:Name="endtime"/>
+                   x:Name="etime"/>
 
             <Label Text="Event address"
               FontSize="15"
               TextColor="Blue"
                Margin="10,10,10,0"/>
 
-            <Entry Placeholder="ex. Haveli, ahmedabad"
+            <Entry Placeholder="Address"
                   Margin="10,0,10,0"
-                   x:Name="eventaddress"/>
+                   x:Name="address"/>
 
-            <Button Text="Submit"
+            <Button Text="Save"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     FontSize="16"
