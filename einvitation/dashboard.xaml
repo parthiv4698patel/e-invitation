@@ -23,12 +23,12 @@
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.ContextActions>
-                                <MenuItem Text="Delete" Clicked="DeleteEvent" IsDestructive="true" CommandParameter="{Binding .}"/>
+                                <MenuItem Text="Delete" Clicked="DeleteEvent"  IsDestructive="true" CommandParameter="{Binding .}"/>
                             </ViewCell.ContextActions>
                             <StackLayout Spacing="2">
-                                
-                                <Label Text="{Binding Title,StringFormat='Title:{0:F0}'}" FontSize="Small" FontAttributes="None"/>
-                                <Label Text="{Binding Description,StringFormat='Description :{0:F0}'}" FontSize="Small" FontAttributes="None"/>
+
+                                    <Label Text="{Binding Title,StringFormat='{0:F0}'}" FontSize="Medium" FontAttributes="None" Margin="05,0,05,0"/>
+                                    <Label Text="{Binding Description,StringFormat='{0:F0}'}" FontSize="Small" FontAttributes="None" Margin="05,0,05,0"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
